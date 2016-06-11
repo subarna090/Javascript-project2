@@ -8,9 +8,48 @@
 </head>
 
 <body>
-    <h1>This is an example text</h1>
+    <h1>Javascript Project2</h1>
+    <form>
+        <fieldset>
+            <legend>Form description</legend> 
+            <label for="name">Name *</label>
+            <input type="text" placeholder="Enter your name" required>
+            <br>
+            <label for="email">Email Id *</label>
+            <input type="email" placeholder="Enter your email" required>
+            <br>
+            <label for="address">Address</label>
+            <textarea placeholder="Enter address"></textarea>
+            <br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <br>
+            <label for="foods">Favourite Foods (Select all that apply)</label>
+            <input type="checkbox" name="foods" value="pizza">Pizza
+            <input type="checkbox" name="foods" value="Chicken">Chicken
+            <input type="checkbox" name="foods" value="Eggs">Eggs
+            <input type="checkbox" name="foods" value="Vegetables">Vegetables
+            <input type="checkbox" name="foods" value="Pork">Pork
+            
+            <br>
+            <label for="qualification">Highest Education Qualification</label>
+            <select name="qualification">
+                <option value="">No selection</option>
+                <option value="PHD">PHD</option>
+                <option value="Masters">Masters Degree</option>
+                <option value="Bachelors">Bachelor's Degree</option>
+                <option value="12">Higher Secondary</option>
+                <option value="Matriculate">Matriculate</option>
+            </select>
+            <br>
+            <p>* Required fields</p>
+            <input type="submit" name="submit" id="submit"><br>
+        </fieldset>
+    </form>
     
 </body>
     
 <footer>
 </footer>
+</html>

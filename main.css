@@ -1,0 +1,36 @@
+body{
+    background-color:azure;
+}
+
+fieldset{
+    color:indianred;
+    background-color: aliceblue;
+    width:560px;
+    border:5px solid tomato; 
+    padding:10px 0px 70px 10px;
+}
+
+label{
+    display: inline-block;
+    text-align: right;
+    width: 180px;
+    vertical-align: top;
+    color:darkcyan
+}
+select{
+    color:indianred;
+}
+
+h1{
+    text-align: center;
+    color:tomato;
+}
+
+p{
+    margin-left:20px;
+}
+#submit{
+    margin:30px 0px 0px 185px;
+    color:indianred;
+    font-size: 20px;
+}
